@@ -1,0 +1,12 @@
+{
+  "languageserver": {
+    "lua": {
+      "command": "java",
+      "args": ["-cp", "lua-emmy-language-server-bin /usr/lib/lua-emmy-language-server/EmmyLua-LS-all.jar", "com.tang.vscode.MainKt"],
+      "filetypes": ["lua"],
+      "rootPatterns": [".git/"]
+    }
+  },
+  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/15.0.6/clangd_15.0.6/bin/clangd",
+  "coc.preferences.codeLens.enable": false
+}
